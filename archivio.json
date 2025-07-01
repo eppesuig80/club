@@ -1,0 +1,1432 @@
+{
+  "users": [
+    {
+      "nome": "GIOVANNI",
+      "cognome": "ACCARDO",
+      "luogo": "PORTICI (NA)",
+      "data": "31/05/1962",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400879779"
+    },
+    {
+      "nome": "MARIO",
+      "cognome": "AMOROSO",
+      "luogo": "PRIVERNO (LT)",
+      "data": "19/09/1991",
+      "residenza": "POLINAGO",
+      "provincia": "MO",
+      "tessera": "044 400067615"
+    },
+    {
+      "nome": "PASQUALE",
+      "cognome": "AMOROSO",
+      "luogo": "CAIVANO (NA)",
+      "data": "09/01/1962",
+      "residenza": "POLINAGO",
+      "provincia": "MO",
+      "tessera": "044 400067607"
+    },
+    {
+      "nome": "FABIO",
+      "cognome": "AMURA",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "30/03/1973",
+      "residenza": "NOVI DI MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "FORTUNATO",
+      "cognome": "ANNICELLI",
+      "luogo": "AFRAGOLA (NA)",
+      "data": "15/11/1964",
+      "residenza": "SASSUOLO",
+      "provincia": "MO",
+      "tessera": "044 400067623"
+    },
+    {
+      "nome": "FRANCESCO",
+      "cognome": "APRILE",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/07/1998",
+      "residenza": "MARANELLO",
+      "provincia": "MO",
+      "tessera": "044 403022989"
+    },
+    {
+      "nome": "FABRIZIO",
+      "cognome": "ARUTA",
+      "luogo": "NAPOLI (NA)",
+      "data": "21/05/1992",
+      "residenza": "PAVULLO",
+      "provincia": "MO",
+      "tessera": "044 403324492"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "AUGELLI",
+      "luogo": "MODENA (MO)",
+      "data": "01/02/2013",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400971121"
+    },
+    {
+      "nome": "EMIDIO",
+      "cognome": "AUGELLI",
+      "luogo": "NAPOLI (NA)",
+      "data": "02/04/1973",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "944 400971246"
+    },
+    {
+      "nome": "MARCO",
+      "cognome": "AUGELLI",
+      "luogo": "NAPOLI (NA)",
+      "data": "27/01/1976",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400971113"
+    },
+    {
+      "nome": "LOREDANA",
+      "cognome": "BLASI",
+      "luogo": "TARANTO (TA)",
+      "data": "31/01/1975",
+      "residenza": "SANT’ILARIO D’ENZA",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "MASSIMILINO",
+      "cognome": "BOCCOLINI",
+      "luogo": "NAPOLI (NA)",
+      "data": "28/05/1976",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 401322803"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "BOVE",
+      "luogo": "MADDALONI (CE)",
+      "data": "30/07/1981",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "SALVATORE",
+      "cognome": "BUCCHIGNANI",
+      "luogo": "MASSA DI SOMMA (NA)",
+      "data": "05/01/2000",
+      "residenza": "CAMPOSANTO",
+      "provincia": "MO",
+      "tessera": "044 403282898"
+    },
+    {
+      "nome": "FLORINDA",
+      "cognome": "CAIAZZO",
+      "luogo": "GRAGNANO (NA)",
+      "data": "24/08/1971",
+      "residenza": "MASSENZATICO",
+      "provincia": "RE",
+      "tessera": "044 403769217"
+    },
+    {
+      "nome": "DANIELE",
+      "cognome": "CALCAMUCCI",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/05/1996",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400123699"
+    },
+    {
+      "nome": "LUDOVICO",
+      "cognome": "CAMERA",
+      "luogo": "MODENA (MO)",
+      "data": "01/10/2009",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 401295041"
+    },
+    {
+      "nome": "ROBERTO",
+      "cognome": "CAMERA",
+      "luogo": "NAPOLI (NA)",
+      "data": "24/10/1968",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 402966707"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "CAPASSO",
+      "luogo": "NAPOLI (NA)",
+      "data": "23/01/1980",
+      "residenza": "FORMIGINE",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "MONICA",
+      "cognome": "CAPEZZUTO",
+      "luogo": "NAPOLI (NA)",
+      "data": "05/12/1973",
+      "residenza": "FORMIGINE",
+      "provincia": "MO",
+      "tessera": "044 400089148"
+    },
+    {
+      "nome": "DOMENICO",
+      "cognome": "CAPOLUONGO",
+      "luogo": "CASTELFRANCO EMILIA (MO)",
+      "data": "21/03/1981",
+      "residenza": "CASTELFRANCO EMILIA",
+      "provincia": "MO",
+      "tessera": "044 300168414"
+    },
+    {
+      "nome": "DAVIDE",
+      "cognome": "CARDONE",
+      "luogo": "SASSUOLO (RE)",
+      "data": "09/11/2008",
+      "residenza": "SASSUOLO",
+      "provincia": "RE",
+      "tessera": "044 402946030"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "CARDONE",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/05/1976",
+      "residenza": "SASSUOLO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "CASILLO",
+      "luogo": "MONTECCHIO EMILIA (RE)",
+      "data": "06/03/2003",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403534786"
+    },
+    {
+      "nome": "MARTINA",
+      "cognome": "CASTIELLO",
+      "luogo": "CENTO (FE)",
+      "data": "23/05/1990",
+      "residenza": "SAN GIOVANNI IN PERSICETO",
+      "provincia": "BO",
+      "tessera": "044 402856643"
+    },
+    {
+      "nome": "RICCARDO",
+      "cognome": "CAVANA",
+      "luogo": "CENTO (FE)",
+      "data": "24/04/1974",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 403230970"
+    },
+    {
+      "nome": "SALVATORE",
+      "cognome": "CEGLIE",
+      "luogo": "NAPOLI (NA)",
+      "data": "09/07/1961",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "CEPOLLARO",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "21/09/1986",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 401423122"
+    },
+    {
+      "nome": "FRANCESCO",
+      "cognome": "CERULLO",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/04/1963",
+      "residenza": "SANT'ILARIO DENZA",
+      "provincia": "RE",
+      "tessera": "044 400553291"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "CERVONE",
+      "luogo": "NAPOLI (NA)",
+      "data": "05/09/1943",
+      "residenza": "MARZAGLIA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "DAVIDE",
+      "cognome": "CIARLONE",
+      "luogo": "REGGIO EMILIA (RE)",
+      "data": "18/09/2001",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 402867806"
+    },
+    {
+      "nome": "GAETANO",
+      "cognome": "CIARLONE",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "19/06/1975",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403176280"
+    },
+    {
+      "nome": "FELICE",
+      "cognome": "CICCARELLI",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "28/07/2010",
+      "residenza": "SAN CESARO SUL PANARO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "PASQUALE",
+      "cognome": "CICCARELLI",
+      "luogo": "AVERSA (NA)",
+      "data": "24/02/1978",
+      "residenza": "SAN CESARO SUL PANARO",
+      "provincia": "MO",
+      "tessera": "044 403010877"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "CICCHETTI",
+      "luogo": "NAPOLI (NA)",
+      "data": "05/06/1982",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400855704"
+    },
+    {
+      "nome": "MARTINA",
+      "cognome": "CIRILLO",
+      "luogo": "FRATTAMAGGIORE (NA)",
+      "data": "28/12/1999",
+      "residenza": "CENTO",
+      "provincia": "FE",
+      "tessera": "044"
+    },
+    {
+      "nome": "SIMONA",
+      "cognome": "CIRILLO",
+      "luogo": "FRATTAMAGGIORE (NA)",
+      "data": "28/12/1999",
+      "residenza": "CENTO",
+      "provincia": "FE",
+      "tessera": "044 401063480"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "COPPOLA",
+      "luogo": "CARPI (MO)",
+      "data": "01/04/1989",
+      "residenza": "SOLIERA",
+      "provincia": "MO",
+      "tessera": "044 400345755"
+    },
+    {
+      "nome": "PASQUALINO",
+      "cognome": "COPPOLA",
+      "luogo": "MODENA (MO)",
+      "data": "12/10/1977",
+      "residenza": "SAN MARTINO IN RIO",
+      "provincia": "RE",
+      "tessera": "044 401721962"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "COPPOLA",
+      "luogo": "MODENA (MO)",
+      "data": "29/07/2010",
+      "residenza": "SAN MARTINO IN RIO",
+      "provincia": "RE",
+      "tessera": "044 400553283"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "CUOMO",
+      "luogo": "CASALNUOVO (NA)",
+      "data": "23/08/1976",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIANLUCA",
+      "cognome": "D'AMIZIO",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/01/1983",
+      "residenza": "CAMPOGALLIANO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "ERASMO",
+      "cognome": "DE MICCO",
+      "luogo": "AFRAGOLA (NA)",
+      "data": "02/11/1968",
+      "residenza": "PAVULLO NEL FRIGNANO",
+      "provincia": "MO",
+      "tessera": "044 200064184"
+    },
+    {
+      "nome": "RAFFAELLO",
+      "cognome": "DE RISO",
+      "luogo": "VIAREGGIO (LU)",
+      "data": "03/02/1962",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "CARMELA",
+      "cognome": "DE ROSA",
+      "luogo": "NAPOLI (NA)",
+      "data": "14/10/1962",
+      "residenza": "SANT' ILARIO D'ENZA",
+      "provincia": "RE",
+      "tessera": "044 400318182"
+    },
+    {
+      "nome": "GAETANO",
+      "cognome": "DE SIMONE",
+      "luogo": "NAPOLI (NA)",
+      "data": "28/10/1975",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 110020350"
+    },
+    {
+      "nome": "STEFANO",
+      "cognome": "DE STEFANO",
+      "luogo": "NAPOLI (NA)",
+      "data": "07/08/1993",
+      "residenza": "SCANDIANO",
+      "provincia": "RE",
+      "tessera": "044 401418148"
+    },
+    {
+      "nome": "GIANLUCA",
+      "cognome": "DEL PIANO",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044 402458606"
+    },
+    {
+      "nome": "RAFFAELE",
+      "cognome": "DELL'AQUILA",
+      "luogo": "MODENA (MO)",
+      "data": "11/09/200",
+      "residenza": "CASTELFRANCO EMILIA",
+      "provincia": "MO",
+      "tessera": "044 401239585"
+    },
+    {
+      "nome": "SERGIO",
+      "cognome": "DELL'AQUILA",
+      "luogo": "SAN PAOLO BEL SITO (NA)",
+      "data": "03/07/1979",
+      "residenza": "CASTELFRANCO EMILIA",
+      "provincia": "MO",
+      "tessera": "044 401239577"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "DELLI PRISCOLI",
+      "luogo": "NOCERA INFERIORE (SA)",
+      "data": "13/07/1992",
+      "residenza": "SARONNO",
+      "provincia": "VA",
+      "tessera": "044 402789067"
+    },
+    {
+      "nome": "MARIO",
+      "cognome": "DELLI PRISCOLI",
+      "luogo": "NOCERA INFERIORE (SA)",
+      "data": "08/10/1984",
+      "residenza": "BATTIGLIA",
+      "provincia": "MO",
+      "tessera": "0444"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "DI BENEDETTO",
+      "luogo": "CARPI (MO)",
+      "data": "06/10/2009",
+      "residenza": "CORREGGIO",
+      "provincia": "RE",
+      "tessera": "044 403752312"
+    },
+    {
+      "nome": "COSTANTINO",
+      "cognome": "DI BENEDETTO",
+      "luogo": "CAPUA (CE)",
+      "data": "30/08/1971",
+      "residenza": "CORREGGIO",
+      "provincia": "RE",
+      "tessera": "044 403752304"
+    },
+    {
+      "nome": "DAVIDE",
+      "cognome": "DI DOMENICO",
+      "luogo": "CAVA DE' TIRRENI",
+      "data": "11/08/1996",
+      "residenza": "CAVA DE' TIRRENI",
+      "provincia": "SA",
+      "tessera": "044"
+    },
+    {
+      "nome": "BENEDETTO",
+      "cognome": "DI MATTEO",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "DI MATTEO",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIOVANNI",
+      "cognome": "DI MAURO",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/04/1970",
+      "residenza": "SANT’ILARIO D’ENZA",
+      "provincia": "RE",
+      "tessera": "044 110232074"
+    },
+    {
+      "nome": "ARMANDO",
+      "cognome": "DI NAPOLI",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/04/1970",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 403755760"
+    },
+    {
+      "nome": "CLAUDIO",
+      "cognome": "DI PAOLO",
+      "luogo": "NAPOLI (NA)",
+      "data": "09/01/1982",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "FABIO",
+      "cognome": "DI PAOLO",
+      "luogo": "NAPOLI (NA)",
+      "data": "18/12/1975",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIOVANNI",
+      "cognome": "DI PINTO",
+      "luogo": "NAPOLI (NA)",
+      "data": "07/09/1978",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 40374993"
+    },
+    {
+      "nome": "ENRICO",
+      "cognome": "DI SILVESTRO",
+      "luogo": "CASERTA (CE)",
+      "data": "12/10/1964",
+      "residenza": "SANT' ILARIO DENZA",
+      "provincia": "RE",
+      "tessera": "044 400089130"
+    },
+    {
+      "nome": "MATTEO GUIDO",
+      "cognome": "ESENTATO",
+      "luogo": "REGGIO EMILIA (RE)",
+      "data": "05/10/2001",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403556291"
+    },
+    {
+      "nome": "VALERIA",
+      "cognome": "ESENTATO",
+      "luogo": "REGGIO EMILIA (RE(",
+      "data": "10/05/1998",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403556283"
+    },
+    {
+      "nome": "MATTEO GUIDO",
+      "cognome": "ESPOSITO",
+      "luogo": "MODENA (MO)",
+      "data": "25/06/198",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 403556291"
+    },
+    {
+      "nome": "DARIO",
+      "cognome": "FARINA",
+      "luogo": "CASERTA (CE)",
+      "data": "10/04/1983",
+      "residenza": "CARPI",
+      "provincia": "MO",
+      "tessera": "044 400182588"
+    },
+    {
+      "nome": "SALVATORE",
+      "cognome": "FARINELLI",
+      "luogo": "NAPOLI (NA)",
+      "data": "27/05/1983",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 401391782"
+    },
+    {
+      "nome": "RAFFELE",
+      "cognome": "FERRARA",
+      "luogo": "NAPOLI (NA)",
+      "data": "05/02/1970",
+      "residenza": "CORREGGIO",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "ENRICO",
+      "cognome": "FERRARI",
+      "luogo": "MIRANDOLA (MO)",
+      "data": "13/06/1989",
+      "residenza": "CAVEZZO",
+      "provincia": "MO",
+      "tessera": "044 400058432"
+    },
+    {
+      "nome": "DOMENICO",
+      "cognome": "FEZZA",
+      "luogo": "CASTELLAMMARE DI STABIA (NA)",
+      "data": "08/04/1974",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "FONTANA",
+      "luogo": "SANTA MARIA CAPUA VETERE (CE)",
+      "data": "21/12/1997",
+      "residenza": "CASTELFRANCO EMILIA",
+      "provincia": "MO",
+      "tessera": "044 400323448"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "GAGLIOTTA",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/07/1980",
+      "residenza": "GUASTALLA",
+      "provincia": "RE",
+      "tessera": "044 402204802"
+    },
+    {
+      "nome": "DIEGO",
+      "cognome": "GILIBERTO",
+      "luogo": "FERRARE (FE)",
+      "data": "29/09/2002",
+      "residenza": "FERRARA",
+      "provincia": "FE",
+      "tessera": "044 403758343"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "GILIBERTO",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/05/1970",
+      "residenza": "FERRARA",
+      "provincia": "FE",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "GINELLI",
+      "luogo": "CASTELLAMMARE DI STABIA (NA)",
+      "data": "04/09/1968",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403189036"
+    },
+    {
+      "nome": "GABRIELE",
+      "cognome": "GINELLI",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "09/10/2002",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 400204226"
+    },
+    {
+      "nome": "MARCO",
+      "cognome": "GIORDANO",
+      "luogo": "POMIGLIANO D’ARCO (NA)",
+      "data": "01/08/1973",
+      "residenza": "SAN MARTINO IN RIO",
+      "provincia": "RE",
+      "tessera": "044 402292500"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "GIORGINO",
+      "luogo": "NAPOLI (NA)",
+      "data": "08/06/1985",
+      "residenza": "SASSUOLO",
+      "provincia": "RE",
+      "tessera": "044 400137079"
+    },
+    {
+      "nome": "PASQUALE",
+      "cognome": "GIORGINO",
+      "luogo": "ARZANO (NA)",
+      "data": "30/09/1959",
+      "residenza": "FIORANO",
+      "provincia": "MO",
+      "tessera": "044 400137087"
+    },
+    {
+      "nome": "GIULIO",
+      "cognome": "GIROTTA",
+      "luogo": "REGGIO EMILIA (RE)",
+      "data": "08/08/2006",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403611757"
+    },
+    {
+      "nome": "FRANCESCO",
+      "cognome": "GIUFFRE’",
+      "luogo": "MODENA (MO)",
+      "data": "11/01/2003",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400496640"
+    },
+    {
+      "nome": "MARIA ROSARIA",
+      "cognome": "IACOMINO",
+      "luogo": "9NAPOLI (NA",
+      "data": "25/07/1969",
+      "residenza": "NOVI DI MODENA",
+      "provincia": "MO",
+      "tessera": "044 400182968"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "IAZZETTA",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/02/1971",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 402611816"
+    },
+    {
+      "nome": "MICHELE",
+      "cognome": "IMPARATO",
+      "luogo": "CASTELLAMMARE DI STABIA (NA)",
+      "data": "16/08/1969",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 110189209"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "IMPERATO",
+      "luogo": "NAPOLI (NA)",
+      "data": "06/03/1968",
+      "residenza": "SAN PROSPERO",
+      "provincia": "MO",
+      "tessera": "044 403611153"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "IODICE",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "06/09/1970",
+      "residenza": "PAVULLO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "BERNARDINO",
+      "cognome": "IOVINO",
+      "luogo": "SANT' ANASTASIA (NA)",
+      "data": "02/04/1963",
+      "residenza": "LATINA",
+      "provincia": "LT",
+      "tessera": "044"
+    },
+    {
+      "nome": "PIERPAOLO",
+      "cognome": "LABADIA",
+      "luogo": "NAPOLI (NA)",
+      "data": "10/10/1985",
+      "residenza": "MIRANDOLA",
+      "provincia": "MO",
+      "tessera": "044 400212336"
+    },
+    {
+      "nome": "SAVERIO",
+      "cognome": "LAVANGA",
+      "luogo": "SCAMPITELLA (AV)",
+      "data": "15/03/1966",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 300026794"
+    },
+    {
+      "nome": "THOMAS",
+      "cognome": "LIGUORI",
+      "luogo": "SCANDIANO (RE)",
+      "data": "04/11/2009",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 401490519"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "LIGUORI",
+      "luogo": "CASERTA (CE)",
+      "data": "17/05/1979",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 400534028"
+    },
+    {
+      "nome": "FRANCESCO",
+      "cognome": "MADIRI",
+      "luogo": "NAPOLI (NA)",
+      "data": "16/05/1985",
+      "residenza": "FORMIGINE",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "MAGLIERI",
+      "luogo": "NAPOLI (NA)",
+      "data": "31/05/1962",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "DAVIDE",
+      "cognome": "MAGRO",
+      "luogo": "NAPOLI (NA)",
+      "data": "29/08/1973",
+      "residenza": "SAN CESARO SUL PANARO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "MAIONE",
+      "luogo": "SARNO (SA)",
+      "data": "03/07/1995",
+      "residenza": "CASTELFRANCO EMILIA",
+      "provincia": "MO",
+      "tessera": "044 402948994"
+    },
+    {
+      "nome": "ROBERTO",
+      "cognome": "MALANGONE",
+      "luogo": "ZURIGO (CH)",
+      "data": "24/09/1987",
+      "residenza": "SASSUOLO",
+      "provincia": "RE",
+      "tessera": "044 200055844"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "MANCINI",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "MARASCO",
+      "luogo": "CASALNUOVO (NA)",
+      "data": "28/10/1964",
+      "residenza": "CASALGRANDE",
+      "provincia": "RE",
+      "tessera": "044 110281493"
+    },
+    {
+      "nome": "DAVIDE",
+      "cognome": "MARGOTTA",
+      "luogo": "BOLOGNA (BO)",
+      "data": "28/12/1999",
+      "residenza": "SAN GIOVANNI IN PERSICETO",
+      "provincia": "BO",
+      "tessera": "044 400902092"
+    },
+    {
+      "nome": "GIOVANNI",
+      "cognome": "MASTRONARDO",
+      "luogo": "NAPOLI (NA)",
+      "data": "03/01/1991",
+      "residenza": "BOLOGNA",
+      "provincia": "BO",
+      "tessera": "044 400074785"
+    },
+    {
+      "nome": "ANDREA",
+      "cognome": "MATRONE",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "MAZZUOCCOLO",
+      "luogo": "CASALNUOVO (NA)",
+      "data": "26/05/1958",
+      "residenza": "CAMPOGALLIANO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "MENNELLA",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "11/09/196",
+      "residenza": "NOVI DI MODENA",
+      "provincia": "MO",
+      "tessera": "044 400337950"
+    },
+    {
+      "nome": "CARLO",
+      "cognome": "MINERVINO",
+      "luogo": "NAPOLI (NA)",
+      "data": "17/06/1998",
+      "residenza": "NAPOLI",
+      "provincia": "NA",
+      "tessera": "044 400701320"
+    },
+    {
+      "nome": "ALFONSO",
+      "cognome": "MIRANDA",
+      "luogo": "NAPOLI (NA)",
+      "data": "09/07/2001",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403313990"
+    },
+    {
+      "nome": "PASQUALE",
+      "cognome": "MORO",
+      "luogo": "MUGNANO DI NAPOLI (NA)",
+      "data": "16/07/1979",
+      "residenza": "MARANELLO",
+      "provincia": "MO",
+      "tessera": "044 403223835"
+    },
+    {
+      "nome": "EUGENIO",
+      "cognome": "NAPOLITANO",
+      "luogo": "CASTELLAMMARE DI STABIA (NA)",
+      "data": "25/05/1978",
+      "residenza": "PAVULLO NEL FRIGNANO",
+      "provincia": "PA",
+      "tessera": "044 11097477"
+    },
+    {
+      "nome": "PAOLO",
+      "cognome": "NAPOLITANO",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "FERNARDO",
+      "cognome": "NOCERA",
+      "luogo": "NAPOLI (NA)",
+      "data": "26/08/1992",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 402846198"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "NORDINI",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "12/12/1983",
+      "residenza": "BAGNOLO",
+      "provincia": "RE",
+      "tessera": "044 300086525"
+    },
+    {
+      "nome": "ALESSANDRO",
+      "cognome": "NOVIELLO",
+      "luogo": "REGGIO EMILIA (RE)",
+      "data": "10/12/2001",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 401369937"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "OTTAIANO",
+      "luogo": "MARIGLIANELLA (NA)",
+      "data": "05/04/1966",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIOVANNI ANDREA",
+      "cognome": "PACCONE",
+      "luogo": "AVERSA (NA)",
+      "data": "04/03/1998",
+      "residenza": "TEVEROLA",
+      "provincia": "CE",
+      "tessera": "044 402047904"
+    },
+    {
+      "nome": "PAOLO",
+      "cognome": "PALANDRI",
+      "luogo": ".",
+      "data": "0",
+      "residenza": ".",
+      "provincia": ".",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIOVANNI",
+      "cognome": "PAOLELLA",
+      "luogo": "SAN PAOLO BEL SITO (NA)",
+      "data": "23/01/1978",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 402654659"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "PASTORE",
+      "luogo": "SANTA MARIA A VICO (NA)",
+      "data": "12/01/1966",
+      "residenza": "SANT' ILARIO D'ENZA",
+      "provincia": "RE",
+      "tessera": "044 403762519"
+    },
+    {
+      "nome": "MAURIZIO",
+      "cognome": "PEPE",
+      "luogo": "NAPOLI (NA)",
+      "data": "06/02/1963",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400337984"
+    },
+    {
+      "nome": "CHRISTIAN",
+      "cognome": "PEZZELLA",
+      "luogo": "AVERSA (CE)",
+      "data": "16/10/1989",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 403068263"
+    },
+    {
+      "nome": "JONATHAN",
+      "cognome": "PICCOLO",
+      "luogo": "SASSUOLO (RE)",
+      "data": "20/08/2001",
+      "residenza": "CASALGRANDE",
+      "provincia": "RE",
+      "tessera": "044 400037584"
+    },
+    {
+      "nome": "NUNZIA",
+      "cognome": "PINTO",
+      "luogo": "TORRE DEL GREGO (BA)",
+      "data": "26/04/1963",
+      "residenza": "CARPI",
+      "provincia": "MO",
+      "tessera": "044 400455968"
+    },
+    {
+      "nome": "PASQUALINA",
+      "cognome": "PISCITELLI",
+      "luogo": "SANTA MARIA A VICO (NA)",
+      "data": "28/01/1973",
+      "residenza": "SANT' ILARIO D'ENZA",
+      "provincia": "RE",
+      "tessera": "044 400214688"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "PISCITELLI",
+      "luogo": "CASERTA (CE)",
+      "data": "08/07/1999",
+      "residenza": "GATTATICO",
+      "provincia": "RE",
+      "tessera": "044 403762501"
+    },
+    {
+      "nome": "Prova",
+      "cognome": "Prova",
+      "luogo": "Prova",
+      "data": "01/01/1999",
+      "residenza": "Re",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "ALFREDO",
+      "cognome": "QUILICI",
+      "luogo": "TORRE ANNUNZIATA (NA)",
+      "data": "29/09/1986",
+      "residenza": "PAVULLO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "CIRO",
+      "cognome": "QUIRINO",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "21/02/1978",
+      "residenza": "NOVI DI MODENA",
+      "provincia": "MO",
+      "tessera": "044 400337976"
+    },
+    {
+      "nome": "SALVATORE",
+      "cognome": "RENGA",
+      "luogo": "NAPOLI (NA)",
+      "data": "01/05/1997",
+      "residenza": "CASALGRANDE",
+      "provincia": "RE",
+      "tessera": "044 403028598"
+    },
+    {
+      "nome": "TOMMASO",
+      "cognome": "ROMANO",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "25/01/1978",
+      "residenza": "CARPI",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "EDOARDO",
+      "cognome": "ROSANDA",
+      "luogo": "NAPOLI (NA)",
+      "data": "05/09/1972",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 11085338"
+    },
+    {
+      "nome": "GIOVANNI",
+      "cognome": "RUFOLO",
+      "luogo": "MASSA DI SOMMA (NA)",
+      "data": "31/01/19",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400218754"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "RUSSO",
+      "luogo": "CASAMARCIANO (NA)",
+      "data": "08/04/1958",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "SILVESTRE",
+      "cognome": "SABATINO",
+      "luogo": "NAPOLI (NA)",
+      "data": "09/08/1977",
+      "residenza": "VIGNOLA",
+      "provincia": "MO",
+      "tessera": "044 400101240"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "SCALA",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "18/12/1971",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 400514574"
+    },
+    {
+      "nome": "SALVATORE",
+      "cognome": "SCHERMA",
+      "luogo": "NAPOLI (NA)",
+      "data": "29/03/1975",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "CHRISTIAN",
+      "cognome": "SCOGNAMIGLIO",
+      "luogo": "SAN GIORGIO A CREMANO (NA)",
+      "data": "27/09/2009",
+      "residenza": "CASTELLARANO",
+      "provincia": "MO",
+      "tessera": "044 400190698"
+    },
+    {
+      "nome": "ALESSANDRO",
+      "cognome": "SCOTTI",
+      "luogo": "NAPOLI (NA)",
+      "data": "30/03/1999",
+      "residenza": "CREVALCORE",
+      "provincia": "BO",
+      "tessera": "044 400800692"
+    },
+    {
+      "nome": "BRUNO",
+      "cognome": "SCOTTO",
+      "luogo": "NAPOLI (NA)",
+      "data": "28/08/1985",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "SEBASTIANO",
+      "luogo": "MUGNANO DI NAPOLI (NA)",
+      "data": "01/04/1998",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "SIENO",
+      "luogo": "PONTEDERA (PI)",
+      "data": "29/09/1971",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400285779"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "SIENO",
+      "luogo": "MODENA (MO)",
+      "data": "08/12/1996",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 400285787"
+    },
+    {
+      "nome": "SABATINO",
+      "cognome": "SILVESTRE",
+      "luogo": "NAPOLI (NA)",
+      "data": "09/08/1977",
+      "residenza": "VIGNOLA",
+      "provincia": "MO",
+      "tessera": "044 400101240"
+    },
+    {
+      "nome": "PIER PAOLO",
+      "cognome": "SIMONETTI",
+      "luogo": "SCAFATI (SA)",
+      "data": "27/06/1986",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403176918"
+    },
+    {
+      "nome": "ANDREA",
+      "cognome": "SOLA",
+      "luogo": "MODENA (MO)",
+      "data": "30/08/1995",
+      "residenza": "Rubiera",
+      "provincia": "RE",
+      "tessera": "044 400308001"
+    },
+    {
+      "nome": "FILOMENA",
+      "cognome": "SOLA",
+      "luogo": "NAPOLI (NA)",
+      "data": "07/07/1971",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 400701320"
+    },
+    {
+      "nome": "LUIGI",
+      "cognome": "SOLA",
+      "luogo": "CASORIA (NA)",
+      "data": "11/02/1970",
+      "residenza": "RUBIERA",
+      "provincia": "RE",
+      "tessera": "044 400321822"
+    },
+    {
+      "nome": "GAETANO",
+      "cognome": "TUPPO",
+      "luogo": "NAPOLI (NA)",
+      "data": "12/06/1963",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 300104096"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "TUPPO",
+      "luogo": "CESENA (FC)",
+      "data": "08/08/1986",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 300104096"
+    },
+    {
+      "nome": "ADRIANO",
+      "cognome": "TURCO",
+      "luogo": "NAPOLI (NA)",
+      "data": "13/07/1995",
+      "residenza": "MARANELLO",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "GENNARO",
+      "cognome": "VADO",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "09/07/1994",
+      "residenza": "REGGIO EMILIA",
+      "provincia": "RE",
+      "tessera": "044 403020074"
+    },
+    {
+      "nome": "CONCETTA",
+      "cognome": "VENTRELLI",
+      "luogo": "BARI (BA)",
+      "data": "15/04/1972",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044"
+    },
+    {
+      "nome": "RAFFAELE",
+      "cognome": "VICINANZA",
+      "luogo": "MASSA DI SOMMA (NA)",
+      "data": "24/08/1988",
+      "residenza": "SCANDIANO",
+      "provincia": "RE",
+      "tessera": "044 40096556"
+    },
+    {
+      "nome": "CARLO",
+      "cognome": "VIRGILIO",
+      "luogo": "AVERSA (CE)",
+      "data": "30/06/1999",
+      "residenza": "AVERSA",
+      "provincia": "CE",
+      "tessera": "044 400304265"
+    },
+    {
+      "nome": "VINCENZO",
+      "cognome": "VITIELLO",
+      "luogo": "TORRE DEL GREGO (NA)",
+      "data": "14/01/1972",
+      "residenza": "PAVULLO NEL FRIGNANO",
+      "provincia": "MO",
+      "tessera": "044 402689598"
+    },
+    {
+      "nome": "GIUSEPPE",
+      "cognome": "ZAPPIA",
+      "luogo": "NAPOLI (NA)",
+      "data": "14/08/1962",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 402974099"
+    },
+    {
+      "nome": "PATRIZIO",
+      "cognome": "ZARA",
+      "luogo": "NAPOLI (NA)",
+      "data": "04/11/1965",
+      "residenza": "PAVULLO",
+      "provincia": "MO",
+      "tessera": "044 402451627"
+    },
+    {
+      "nome": "LUCA",
+      "cognome": "ZEULI",
+      "luogo": "TORRE DEL GRECO (NA)",
+      "data": "05/01/1982",
+      "residenza": "NOVI DI MODENA",
+      "provincia": "MO",
+      "tessera": "044 110443999"
+    },
+    {
+      "nome": "ANTONIO",
+      "cognome": "ZITO",
+      "luogo": "MODENA (MO)",
+      "data": "10/01/1991",
+      "residenza": "MODENA",
+      "provincia": "MO",
+      "tessera": "044 402360521"
+    },
+    {
+      "nome": "MARIO",
+      "cognome": "ZOPPI",
+      "luogo": "MARCIANISE (CE)",
+      "data": "10/04/2000",
+      "residenza": "SAN GIOVANNI IN PERSICETO",
+      "provincia": "BO",
+      "tessera": "044 403544495"
+    }
+  ],
+  "trasferte": [
+    "AMOROSO PASQUALE - CAIVANO (NA) 09/01/1962 - POLINAGO (MO) - 044 400067607",
+    "ZEULI LUCA - TORRE DEL GRECO (NA) 05/01/1982 - NOVI DI MODENA (MO) - 044 110443999",
+    "VITIELLO VINCENZO - TORRE DEL GREGO (NA) 14/01/1972 - PAVULLO NEL FRIGNANO (MO) - 044 402689598",
+    "VIRGILIO CARLO - AVERSA (CE) 30/06/1999 - AVERSA (CE) - 044 400304265"
+  ]
+}
