@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Club Napoli Partenopei Modena</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; transition: background-color 0.3s, box-shadow 0.3s; }
+  h1, h2 { text-align: center; }
+  .input-group { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 10px; }
+  .input-group input { padding: 5px; min-width: 120px; text-transform: capitalize; }
+  .input-group input#provincia { text-transform: uppercase; min-width: 60px; }
+  button { padding: 5px 10px; margin: 2px; cursor: pointer; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  th { background-color: #f3f3f3; }
+  tbody tr:nth-child(odd) { background-color: white; }
+  tbody tr:nth-child(even) { background-color: #e6f0ff; }
+  #trasfertePreview, #trasferteList {
+    border: 1px dashed #333;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.15em;
+  }
+  #trasferteList { display: none; }
+  .trasferte-controls { text-align: center; margin-top: 10px; }
+  #logo-container { text-align: center; margin-bottom: 20px; }
+  #logo { max-width: 150px; height: auto; }
+  ol#trasferteData li, ol#trasferteDataPrint li {
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    font-size: 0.95em;
+  }
+  @media print {
+    body *:not(#trasferteList):not(#trasferteList *) { display: none; }
+    #trasferteList { display: block !important; }
+  }
+  body.dragover {
+    background-color: #def;
+    box-shadow: inset 0 0 20px #00aaff;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: inset 0 0 20px #00aaff; }
+    50%  { box-shadow: inset 0 0 40px #00aaff; }
+    100% { box-shadow: inset 0 0 20px #00aaff; }
+  }
+</style>
+</head>
+<body>
+<div id="logo-container">
+  <img id="logo" src="logo.png" alt="Logo Club Napoli Partenopei Modena"
+    onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div><b>Logo non trovato</b></div>');"/>
+</div>
+<h1 contenteditable="true">Club Napoli Partenopei Modena</h1>
+
+<div class="input-group">
+  <input id="nome" placeholder="Nome" />
+  <input id="cognome" placeholder="Cognome" />
+  <input id="luogo" placeholder="Luogo di nascita" />
+  <input id="data" placeholder="Data (GG/MM/AAAA)" maxlength="10" />
+  <input id="residenza" placeholder="Residenza" />
+  <input id="provincia" placeholder="Prov." maxlength="2" />
+  <input id="tessera" placeholder="Numero Tessera" />
+</div>
+
+<div>
+  <button onclick="addUser()">➕ Aggiungi</button>
+  <button onclick="saveJSON()">💾 Esporta JSON</button>
+  <button onclick="triggerFileImport()">📂 Importa JSON</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th><th>Cognome e Nome</th><th>Luogo e Data</th>
+      <th>Residenza</th><th>Provincia</th><th>Tessera</th><th>Azioni</th>
+    </tr>
+  </thead>
+  <tbody id="userTable"></tbody>
+</table>
+
+<div id="trasfertePreview">
+  <h2 contenteditable="true">Trasferta</h2>
+  <ol id="trasferteData"></ol>
+  <div class="trasferte-controls">
+    <button onclick="window.print()">🖨️</button>
+    <button onclick="salvaPDF()">📤</button>
+    <button onclick="clearTrasferte()">🗑️</button>
+  </div>
+</div>
+
+<div id="trasferteList">
+  <h2><b>Trasferte</b></h2>
+  <ol id="trasferteDataPrint"></ol>
+</div>
+
+<script>
+let users = [], trasferte = [], editIndex = -1;
+
+function capitalize(s) { return s.replace(/\b\w/g, l => l.toUpperCase()); }
+
+document.getElementById("data").addEventListener("input", e => {
+  let v = e.target.value.replace(/\D/g, "");
+  if (v.length >= 2 && v.length < 4) v = v.slice(0,2)+"/"+v.slice(2);
+  if (v.length >= 4) v = v.slice(0,2)+"/"+v.slice(2,4)+"/"+v.slice(4,8);
+  e.target.value = v;
+});
+
+function addUser() {
+  let u = {
+    nome: capitalize(document.getElementById("nome").value.trim()),
+    cognome: capitalize(document.getElementById("cognome").value.trim()),
+    luogo: capitalize(document.getElementById("luogo").value.trim()),
+    data: document.getElementById("data").value.trim(),
+    residenza: capitalize(document.getElementById("residenza").value.trim()),
+    provincia: document.getElementById("provincia").value.trim().toUpperCase(),
+    tessera: document.getElementById("tessera").value.trim()
+  };
+  if (Object.values(u).some(v => !v)) { alert("Compila tutti i campi!"); return; }
+  if (editIndex >= 0) { users[editIndex] = u; editIndex = -1; } else { users.push(u); }
+  users.sort((a,b) => a.cognome.localeCompare(b.cognome));
+  render(); saveLocal();
+  document.querySelectorAll(".input-group input").forEach(el => el.value = "");
+}
+
+function render() {
+  let t = document.getElementById("userTable");
+  t.innerHTML = "";
+  users.forEach((u,i)=>{
+    let tr = document.createElement("tr");
+    tr.innerHTML = `<td>${i+1}</td><td>${u.cognome} ${u.nome}</td>
+      <td>${u.luogo}, ${u.data}</td><td>${u.residenza}</td>
+      <td>${u.provincia}</td><td>${u.tessera}</td>
+      <td><button onclick="addToTrasferte(${i})">⬆️</button>
+      <button onclick="editUser(${i})">⚙️</button><button onclick="delUser(${i})">🗑️</button></td>`;
+    t.appendChild(tr);
+  });
+  renderTrasferte();
+}
+
+function editUser(i) {
+  let u = users[i];
+  document.getElementById("nome").value = u.nome;
+  document.getElementById("cognome").value = u.cognome;
+  document.getElementById("luogo").value = u.luogo;
+  document.getElementById("data").value = u.data;
+  document.getElementById("residenza").value = u.residenza;
+  document.getElementById("provincia").value = u.provincia;
+  document.getElementById("tessera").value = u.tessera;
+  editIndex = i;
+}
+
+function delUser(i) { if (confirm("Eliminare?")) { users.splice(i,1); render(); saveLocal(); }}
+
+function addToTrasferte(i) {
+  let u = users[i];
+  trasferte.push(`${u.cognome} ${u.nome} - ${u.luogo} ${u.data} - ${u.residenza} (${u.provincia}) - ${u.tessera}`);
+  renderTrasferte(); saveLocal();
+}
+
+function renderTrasferte() {
+  let p = document.getElementById("trasferteData"), pr = document.getElementById("trasferteDataPrint");
+  p.innerHTML = ""; pr.innerHTML = "";
+  trasferte.forEach((t,i)=>{
+    let li = document.createElement("li");
+    li.innerHTML = `${t}<button onclick="moveUp(${i})">⬆️</button>
+    <button onclick="moveDown(${i})">⬇️</button><button onclick="editTrasferta(${i})">⚙️</button>
+    <button onclick="delTrasferta(${i})">🗑️</button>`;
+    p.appendChild(li); let li2 = document.createElement("li");
+    li2.textContent = t; pr.appendChild(li2);
+  });
+}
+
+function delTrasferta(i) {
+  if (confirm("Eliminare questa trasferta?")) {
+    trasferte.splice(i,1);
+    renderTrasferte();
+    saveLocal();
+  }
+}
+
+function moveUp(i) {
+  if (i <= 0) return;
+  [trasferte[i-1], trasferte[i]] = [trasferte[i], trasferte[i-1]];
+  renderTrasferte();
+  saveLocal();
+}
+
+function moveDown(i) {
+  if (i >= trasferte.length -1) return;
+  [trasferte[i+1], trasferte[i]] = [trasferte[i], trasferte[i+1]];
+  renderTrasferte();
+  saveLocal();
+}
+
+function editTrasferta(i) {
+  let nuovo = prompt("Modifica trasferte:", trasferte[i]);
+  if (nuovo !== null && nuovo.trim() !== "") {
+    trasferte[i] = nuovo.trim();
+    renderTrasferte();
+    saveLocal();
+  }
+}
+
+function clearTrasferte() {
+  if (confirm("Sei sicuro di voler eliminare TUTTA la lista trasferte?")) {
+    trasferte = [];
+    renderTrasferte();
+    saveLocal();
+  }
+}
+
+function salvaPDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  doc.setFontSize(12);
+  doc.text("Lista trasferte - Club Napoli Partenopei Modena", 10, 10);
+  let y = 20;
+  trasferte.forEach((t, i) => {
+    let line = `${i+1}. ${t}`;
+    let size = 12;
+    while (doc.getTextWidth(line) > 190 && size > 6) {
+      size -= 0.5;
+      doc.setFontSize(size);
+    }
+    if (y > 280) { doc.addPage(); y = 20; }
+    doc.text(line, 10, y);
+    y += size + 4;
+    doc.setFontSize(12);
+  });
+  doc.save("trasferte.pdf");
+}
+
+function saveLocal() { localStorage.setItem("clubnapoli", JSON.stringify({users, trasferte})); }
+
+window.onload = ()=> { let d = localStorage.getItem("clubnapoli");
+  if (d) { try { let p=JSON.parse(d); users=p.users||[]; trasferte=p.trasferte||[]; } catch{} } render(); }
+
+function triggerFileImport() {
+  let input = document.createElement("input");
+  input.type = "file";
+  input.accept = ".json,application/json";
+  input.onchange = (e) => {
+    let file = e.target.files[0];
+    if (!file) return;
+    let reader = new FileReader();
+    reader.onload = (event) => {
+      try {
+        let data = JSON.parse(event.target.result);
+        users = data.users || [];
+        trasferte = data.trasferte || [];
+        render(); saveLocal();
+        alert("Archivio JSON importato!");
+      } catch (err) {
+        alert("Errore: il file JSON non è valido o ha un formato sbagliato.");
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+document.body.addEventListener("dragover", e => { e.preventDefault(); document.body.classList.add("dragover"); });
+document.body.addEventListener("dragleave", e => { e.preventDefault(); document.body.classList.remove("dragover"); });
+document.body.addEventListener("drop", e => {
+  e.preventDefault(); document.body.classList.remove("dragover");
+  let file = e.dataTransfer.files[0];
+  if (!file) return;
+  let r = new FileReader();
+  r.onload = e => {
+    try {
+      let p = JSON.parse(e.target.result);
+      users = p.users || []; trasferte = p.trasferte || [];
+      render(); saveLocal();
+      alert("Archivio JSON caricato con drag & drop!");
+    } catch { alert("Errore nel JSON"); }
+  };
+  r.readAsText(file);
+});
+</script>
+</body>
+</html>
