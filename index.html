@@ -173,6 +173,37 @@ function renderTrasferte() {
   });
 }
 
+function delTrasferta(i) {
+  if (confirm("Eliminare questa trasferta?")) {
+    trasferte.splice(i,1);
+    renderTrasferte();
+    saveLocal();
+  }
+}
+
+function moveUp(i) {
+  if (i <= 0) return;
+  [trasferte[i-1], trasferte[i]] = [trasferte[i], trasferte[i-1]];
+  renderTrasferte();
+  saveLocal();
+}
+
+function moveDown(i) {
+  if (i >= trasferte.length -1) return;
+  [trasferte[i+1], trasferte[i]] = [trasferte[i], trasferte[i+1]];
+  renderTrasferte();
+  saveLocal();
+}
+
+function editTrasferta(i) {
+  let nuovo = prompt("Modifica trasferte:", trasferte[i]);
+  if (nuovo !== null && nuovo.trim() !== "") {
+    trasferte[i] = nuovo.trim();
+    renderTrasferte();
+    saveLocal();
+  }
+}
+
 function clearTrasferte() {
   if (confirm("Sei sicuro di voler eliminare TUTTA la lista trasferte?")) {
     trasferte = [];
@@ -218,13 +249,11 @@ function triggerFileImport() {
     reader.onload = (event) => {
       try {
         let data = JSON.parse(event.target.result);
-        console.log("JSON caricato:", data);
         users = data.users || [];
         trasferte = data.trasferte || [];
         render(); saveLocal();
         alert("Archivio JSON importato!");
       } catch (err) {
-        console.error("Errore nel JSON:", err);
         alert("Errore: il file JSON non è valido o ha un formato sbagliato.");
       }
     };
@@ -243,7 +272,6 @@ document.body.addEventListener("drop", e => {
   r.onload = e => {
     try {
       let p = JSON.parse(e.target.result);
-      console.log("JSON caricato:", p);
       users = p.users || []; trasferte = p.trasferte || [];
       render(); saveLocal();
       alert("Archivio JSON caricato con drag & drop!");
